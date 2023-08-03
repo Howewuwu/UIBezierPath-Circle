@@ -20,7 +20,7 @@ var sliderInstance: Float = -90
 
 let circleLayer = CAShapeLayer()
 let circleLayer2 = CAShapeLayer()
-let circleLayer3 = CAShapeLayer()
+
 
 let percentageLabel = UILabel()
 
@@ -81,19 +81,10 @@ class CircleApplicationViewController: UIViewController {
         circleLayer2.strokeColor = CGColor(red: 1, green: 0, blue: 1, alpha: 1)
         
         
-        //circle3
-        let path3 = UIBezierPath()
-        path3.addArc(withCenter: startPoint, radius: radius+10, startAngle: aDegree * 0, endAngle: aDegree * 360, clockwise: true)
-        
-        circleLayer3.removeFromSuperlayer()
-        circleLayer3.path = path3.cgPath
-        circleLayer3.fillColor = UIColor.clear.cgColor
-        circleLayer3.lineWidth = 15
-        circleLayer3.strokeColor = UIColor.systemBackground.cgColor
+
         
         
         view.layer.addSublayer(circleLayer)
-        view.layer.addSublayer(circleLayer3)
         view.layer.addSublayer(circleLayer2)
         upLabel()
         

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9CA7C8A22A76C44000EFB685 /* CircleApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7C8A12A76C44000EFB685 /* CircleApplicationViewController.swift */; };
 		9CA7C8A42A78360E00EFB685 /* CircleApplicationTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7C8A32A78360E00EFB685 /* CircleApplicationTwoViewController.swift */; };
+		9CA7C8AA2A79FC0F00EFB685 /* CircleApplicationTwoCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7C8A92A79FC0F00EFB685 /* CircleApplicationTwoCopy.swift */; };
 		9CC309502A72EBF500226297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3094F2A72EBF500226297 /* AppDelegate.swift */; };
 		9CC309522A72EBF500226297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC309512A72EBF500226297 /* SceneDelegate.swift */; };
 		9CC309542A72EBF500226297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC309532A72EBF500226297 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		9CA7C8A12A76C44000EFB685 /* CircleApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleApplicationViewController.swift; sourceTree = "<group>"; };
 		9CA7C8A32A78360E00EFB685 /* CircleApplicationTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleApplicationTwoViewController.swift; sourceTree = "<group>"; };
+		9CA7C8A92A79FC0F00EFB685 /* CircleApplicationTwoCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleApplicationTwoCopy.swift; sourceTree = "<group>"; };
 		9CC3094C2A72EBF500226297 /* UIBezierPath&Circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIBezierPath&Circle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC3094F2A72EBF500226297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC309512A72EBF500226297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		9CC309432A72EBF500226297 = {
 			isa = PBXGroup;
 			children = (
+				9CA7C8A92A79FC0F00EFB685 /* CircleApplicationTwoCopy.swift */,
 				9CC3094E2A72EBF500226297 /* UIBezierPath&Circle */,
 				9CC3094D2A72EBF500226297 /* Products */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA7C8AA2A79FC0F00EFB685 /* CircleApplicationTwoCopy.swift in Sources */,
 				9CC309542A72EBF500226297 /* ViewController.swift in Sources */,
 				9CA7C8A22A76C44000EFB685 /* CircleApplicationViewController.swift in Sources */,
 				9CA7C8A42A78360E00EFB685 /* CircleApplicationTwoViewController.swift in Sources */,
